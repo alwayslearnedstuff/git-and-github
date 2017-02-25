@@ -55,7 +55,8 @@
     * // And go into the file to see 3 sections: 
         1. // Top section: **HEAD** == your code
         2. // Bottom section: **master** == code in master right now
-        3. // middle section: original version both sections modified
+        3. // middle section: original version both sections modified, called: **common ancestor**
+            * // Finally, resolve whichever change you want: delete git text inserted, e.g. HEAD  ====  etc.
     * `git merge --abort` // Backs out of merge
 * `git show commit_id` // Compare commit to its parent
-* 
+
