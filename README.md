@@ -60,3 +60,22 @@
     * `git merge --abort` // Backs out of merge
 * `git show commit_id` // Compare commit to its parent
 
+### Section 3: Using Github to Collaborate
+* // Use password caching so don't have to type pwd every time commit to Github: https://help.github.com/articles/caching-your-github-password-in-git/
+* // Can't clone local repo to github; so you have to create "remote" repo in github, then **push** local up
+* // If creating new project on github (no local yet), create w/Readme...
+    * Else if pushing locally, create remote _without_ readme.md ... 
+        * because it counts readme as a commit && that creates conflict
+* `git remote` // View remotes
+* `git remote add [name] [URL]` // **Add remote**; _[name]_ can be anything but...
+    * // e.g. git remote add origin git@github.com:_username_/_reponame_
+        * **origin** is common when have one remote
+* `git remote -v` // _-v_ is 'verbose'; this command outputs github remotes
+* `git push [remote name] [remote branch] // push local changes to remote
+    * // e.g. git push origin master
+* // on github, clicking _commits_ displays commits pushed to github; not all local
+    * // e.g. if edit/create text files on github; pushed from another computer; pushed from another user
+* `git pull [remote name] [remote branch] // pull remote changes to sync to local
+    * // e.g. git pull origin master
+* // **fork**: github copies a repo onto github in your account; then you clone (to local)
+* 
