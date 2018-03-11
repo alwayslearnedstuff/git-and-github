@@ -1,4 +1,4 @@
-# Udacity Git and Github course
+# Git and Github course
 
 ## All course commands and instructions below
 
